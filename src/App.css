@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #171151;
+    user-select: #000;
+}
+  
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.button{
+    padding: 3vh 6vh;
+    font-weight: 800;
+    color: #fff;
+    background-color: #10D0A1;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.button:hover{
+    background-color: #307cf6;
+}
+
+/* ===================== NAVBAR ======================= */
+
+
+
+/* ===================== BANNER ======================= */
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/images/hero-prev.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.banner-container h3{
+    font-size: 25px;
+    color: #10D0A1;
+    font-weight: 800;
+}
+
+.banner-container h2{
+    font-size: 45px;
+    padding: 2vw 20vw 3vw 20vw;
+    font-weight: 800;
+    color: #171151;
+    text-shadow: 3px 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.banner-button{
+    padding-bottom: 2vw;
+}
+
+.banner-img{
+    width: 18vh;
+    padding: 3vw 0 2vw 0;
+    object-fit: cover;
+}
+
+/* ===================== HOME-DEMOS ======================= */
+
+.demo-container{
+    background-color: #fefffe;
+    padding: 5vh;
+}
+
+.demo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo-text h2{
+    font-size: 45px;
+    padding-top: 3vw;
+    text-shadow: 2px 1px 3px #000;
+}
+
+.demo-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 2vh;
+    padding: 2vh 20vw;
+    text-align: center;
+}
+
+/* ------------------ home-card-1 ------------------- */
+
+.home-cards{
+    display: flex;
+    padding: 5vw 0;
+}
+
+.home-card{
+    border: 1px solid #ebeaea;
+    padding: 7vh 8vh 4vh 8vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.home-card:hover{
+    background: rgb(32, 132, 214) url('./assets/images/testimonial-shape-01.png') no-repeat center center; 
+    background-position: center;
+    transition: all 800ms ease-in-out;
+}
+
+.home-card:hover h2{
+    color: #f6f4f4;
+    transition: all 400ms ease;
+}
+
+.home-card h2{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1.5vw;
+}
+
+.home-card img{
+    width: 50vh;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------ home-card-2 ------------------- */
+
+.home-cards-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+
+.home-card-2{
+    display: flex;
+    border: 1px solid #ccc;
+    gap: 3vh;
+    padding: 10vh;
+    border-radius: 2px;
+}
+
+.home-card-2 h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* ===================== FEATURES ======================= */
+
+.features-container{
+    background: #f4f4f4;
+    padding: 4vw 0;
+}
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-text h2{
+    font-size: 45px;
+    padding-top: 3vw;
+    text-shadow: 2px 1px 3px #000;
+}
+
+.feature-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 2vh;
+    padding: 2vh 20vw;
+    text-align: center;
+}
+
+/* ------------------ feature-cards ------------------- */
+
+.feature-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 0 3rem 0;
+    gap: 2.2vw;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50vh;
+    height: 30vh;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.feature-card img{
+    width: 65px;
+}
+
+.feature-card h2{
+    font-weight: 500;
+    padding-top: 2vh;
+    font-size: 22px;
+}
+
+/* ===================== FEEDBACK ======================= */
+
+.feedback{
+    background: #1d1566 url('./assets/images/testimonial-shape-01.png') no-repeat center center; 
+    color: #fff;
+    padding: 4vw 0;
+}
+
+.feedback-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-t-h2{
+    font-size: 45px;
+    padding-top: 2vw;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------------ feedback-cards ---------------------- */
+
+.feedback-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;
+    padding: 4vw 5vw;
+}
+
+.feedback-card{
+    background: #171057;
+    border-radius: 15px;
+    padding: 4vw;
+}
+
+.f-c-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-card p{
+    font-size: 17px;
+    color: #dadada;
+    padding: 2vw 0;
+}
+
+.f-c-bottom{
+    display: flex;
+    gap: 1rem;
+}
+
+.f-c-bottom img{
+    width: 10vh;
+}
+
+.f-c-bottom h2{
+    padding-top: 2vh;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* ===================== PURCHASE ======================= */
+
+.purchase-container{
+    background: #10D0A1 url('./assets/images/footer-bg.png') no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase-container h2{
+    color: #fff;
+    font-size: 42px;
+    padding: 0 15vw;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+.purchase-container button{
+    padding: 2vh 6vh;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #307cf6;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.purchase-container button:hover{
+    background: #fff;
+    color: #000;
+    transition: all 400ms ease-in;
+}
+
+
+/* ===================== RESPONSIVE ======================= */
+
+@media(max-width: 1050px){
+
+    /* ============== banner ============= */
+
+    .banner-container h3{
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .banner-container h2{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 800px){
+
+    /* ============== banner ============= */
+
+    .banner-container h3{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .banner-container h2{
+        font-size: 30px;
+    }
+
+    .button{
+        font-weight: 700;
+    }
+
+    /* ============== feedback ============= */
+
+    .feedback-cards{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media(max-width: 500px){
+    
+    /* ============== banner ============= */
+
+    .banner-container h3{
+        font-size: 17px;
+        padding-top: 2vw;
+    }
+
+    .banner-container h2{
+        font-size: 20px;
+        padding: 2vw 8vw 5vw 8vw;
+    }
+
+    .button{
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width: 350px){
+
+    /* ============== banner ============= */
+
+    .banner-container h3{
+        font-size: 15px;
+        padding-top: 2vw;
+    }
+
+    .banner-container h2{
+        font-size: 22px;
+        padding: 2vw 7vw 5vw 7vw;
+    }
+
+    .button{
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
