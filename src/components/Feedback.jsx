@@ -21,14 +21,14 @@ function Feedback() {
                     <div className="feedback-card">
 
                         <div className="f-c-top">
-                            <h2>Design Quality</h2>
+                            <h2>Code Quality</h2>
 
                             <div className="stars">
-                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} />
-                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} />
-                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} />
-                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} />
-                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} />
+                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} className='star' />
+                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} className='star' />
+                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} className='star' />
+                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} className='star' />
+                            <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} className='star' />
                             </div>
 
                         </div>
@@ -45,7 +45,7 @@ function Feedback() {
                     <div className="feedback-card">
 
                         <div className="f-c-top">
-                            <h2>Customer Support</h2>
+                            <h2>Code Quality</h2>
 
                             <div className="stars">
                             <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} />
@@ -93,7 +93,7 @@ function Feedback() {
                     <div className="feedback-card">
 
                         <div className="f-c-top">
-                            <h2>Design Quality</h2>
+                            <h2>Code Quality</h2>
 
                             <div className="stars">
                             <FontAwesomeIcon icon={faStar} style={{ color: 'yellow', fontSize: '22px' }} />
